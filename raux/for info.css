@@ -1,0 +1,78 @@
+body{
+    background-image: url("back40.jpg");
+}
+.main{
+    display: flex;
+}
+.main{
+    border-radius: 10%;
+    height: 500px;
+    width: 80%;
+    position: relative;
+    top: 100px;left: 10%;
+    background-image: url("back41.jpg");
+    background-size: cover;
+    opacity: 60%;
+}
+.smain{
+    height: 100%;
+    width: 50%;
+   
+    background-image: url("back44.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+.smain2{
+    height: 100%;
+    width: 50%;
+    background-image: url("back43.jpg");
+    border-radius: 10%;
+}
+img{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(137, 255, 156);
+    font-size: 40px;
+}
+.pass{
+    position: relative;
+    top: 150px;left: 10%;
+    font-size: 30px;
+    color: rgb(137, 255, 156);
+}
+#pass{
+    height: 30px;
+    width: 300px;
+    border-radius: 10%;
+}
+.uername{
+    position: relative;
+    top: 150px;left: 10%;
+    font-size: 30px;
+    color: rgb(137, 255, 156);
+}
+#name{
+    height: 30px;
+    width: 300px;
+    border-radius: 10%;
+}
+#btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 10%;
+    position: relative;
+    top: 50px;left: 50%;
+    font-size: 23px;
+}
+button{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10%;
+}

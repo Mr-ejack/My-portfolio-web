@@ -1,0 +1,535 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+font-family: 'Bitter';
+src: url('../_fonts/Bitter-Italic-webfont.eot');
+src: url('../_fonts/Bitter-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../_fonts/Bitter-Italic-webfont.woff') format('woff'),
+     url('../_fonts/Bitter-Italic-webfont.ttf') format('truetype'),
+     url('../_fonts/Bitter-Italic-webfont.svg#BitterItalic') format('svg');
+font-weight: normal;
+font-style: italic;
+}
+@font-face {
+font-family: 'Bitter';
+src: url('../_fonts/Bitter-Bold-webfont.eot');
+src: url('../_fonts/Bitter-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../_fonts/Bitter-Bold-webfont.woff') format('woff'),
+     url('../_fonts/Bitter-Bold-webfont.ttf') format('truetype'),
+     url('../_fonts/Bitter-Bold-webfont.svg#BitterBold') format('svg');
+font-weight: bold;
+font-style: normal;
+}
+@font-face {
+font-family: 'DroidSans';
+src: url('../_fonts/DroidSans-webfont.eot');
+src: url('../_fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../_fonts/DroidSans-webfont.woff') format('woff'),
+     url('../_fonts/DroidSans-webfont.ttf') format('truetype'),
+     url('../_fonts/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'DroidSans';
+src: url('../_fonts/DroidSans-Bold-webfont.eot');
+src: url('../_fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../_fonts/DroidSans-Bold-webfont.woff') format('woff'),
+     url('../_fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+     url('../_fonts/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg');
+font-weight: bold;
+font-style: normal;
+}
+body{
+    background-color: rgb(49, 49, 49);
+    font: 100% DroidSans, Arial, Helvetica, sans-serif;
+}
+.main{
+    padding-left:2%;
+    padding-right:2%;
+    width: 96%;
+}
+.top{
+    display: flex;
+    
+}
+.logo{
+    height: 150px;
+    width: 17%;
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    height: 45px;
+    width: 83%;
+    background-color: rgb(0, 0, 0,0.7);
+}
+.search{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(15, 15, 17);
+
+}
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 5px;top: 5px;
+}
+
+.li{
+    font-size: 15px;
+    list-style: none;
+    float: left;
+    padding: 13px 31px;
+    color: rgb(255, 255, 255);
+}
+a :hover{
+    color: orange;
+}
+#search{
+    position: relative;
+    left: 13px;top: 13px;
+    width: 60%;
+}
+.btn{
+    position: relative;
+    left: 10px;top: 13px;
+}
+.pic{
+    background-image: url("back.jpg");
+    position: relative;
+    left: 3px;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+.second{
+    display: flex;
+    width: 99%;
+}
+.one{
+  
+    padding: 5px 5px;
+    max-height: 308px;
+    max-width: 33%;
+	overflow: hidden;
+	position: relative;
+    left: 3px;top: 3px;
+	transition: max-height 0.25s;
+	
+    background-color: rgb(175, 82, 187);
+}
+.one:hover{
+    max-height: 500px;
+}
+
+.two{
+    padding: 5px 5px;
+    max-height: 308px;
+    max-width: 33%;
+	overflow: hidden;
+	position: relative;
+    left: 6px;top: 3px;;
+    transition: max-height 0.25s;
+    background-color: rgb(252, 173, 56);
+   
+}
+.two:hover{
+    max-height: 500px;
+}
+.three:hover{
+    max-height: 900px;
+}
+
+.three{
+    border: 5px;
+    padding: 5px 5px;
+    padding: 5px 5px;
+    max-height: 308px;
+    max-width: 33%;
+	overflow: hidden;
+	position: relative;
+    left: 9px;top: 3px;
+	transition: max-height 0.25s;
+    background-color: rgb(32, 116, 243);
+    
+    
+}
+h2{
+    position: relative;
+    left: 10px;
+    text-align: left;
+    color: rgb(253, 253, 253);
+    font-size: 30px;
+    opacity: 100%;
+}
+.inone{
+    padding: 0px 0px;
+    height: 45px;
+    width: 100%;
+    background-image: url("pattern.png");
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+   
+}  
+.intwo{
+    padding: 0px 0px;
+    height: 45px;
+    width: 100%;
+    background-image: url("pattern.png");
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+   
+}  
+.inthree{
+    padding: 0px 0px;
+    height: 45px;
+    width: 100%;
+    background-image: url("pattern.png");
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+}
+.picinone{
+    position: relative;
+    left: 17px;
+    height: 230px;
+    width: 280px;
+    border-radius: 0%;
+}
+.picintwo{
+    position: relative;
+    left: 17px;
+    height: 230px;
+    width: 280px;
+    border-radius: 0%;
+    
+    
+}
+.picinthree{
+    position: relative;
+    left: 17px;
+    height: 230px;
+    width: 280px;
+    border-radius: 0%;
+}
+p{
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para{
+    padding: 10% 5%;
+
+    
+}
+.more{
+    display: block;
+    height: 50px;
+}
+.more{
+    color: aliceblue;
+    
+}
+.more:hover{
+    background-image: url("pattern.png");
+}
+
+
+.list{
+    color: black;
+    position: relative;
+    top: 40px;
+    padding-left: 18px;
+    padding-top: 15px;
+
+}
+span{
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+}
+.third{
+    display: flex;
+    position: relative;
+    top: 6px;
+}
+.maincontent{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 65.55%;
+    position: relative;
+    left: 3px;
+}
+.side{
+    
+    width: 33.7%;
+    position: relative;
+    left: 6px;
+    
+}
+.sideone{   
+    background image: url(../_images/hover.png) no-repeat right top;
+    max-height: 300px;
+    max-width: 100%;
+	overflow: hidden;
+	transition: max-height 0.25s;
+        background-color: rgb(252, 173, 56);
+}
+
+.sideone:hover{
+    max-height: 520px;
+    background-position: right bottom;
+}
+.sidetwo{
+    height: 125px;
+    width: 100%;
+    position: relative;
+    top: 3px;
+    background-color: rgb(175, 82, 187);
+}
+.imm{
+    padding: 10px 15px;
+}
+
+.sidethree{
+    background-color: rgb(32, 116, 243);
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 6px;
+
+}
+#heading{
+    color: rgb(73, 77, 82);
+    text-align: left;
+    font-size: 25px;
+    margin-left: 3%;
+    position: relative;
+    top: 20px;
+}
+.more2{
+    color: rgb(137, 43, 226);
+    
+    font-weight: bold;
+    font-size: 18px;
+  
+    position: relative;
+    left: 200px;top: 10px;
+}
+a:hover{
+    color: rgb(202, 132, 2);
+}
+.par{
+    margin-left: 3%;
+    position: relative;
+    top: 20px;
+}
+.tt{
+    padding: 0px 0px;
+    height: 45px;
+    width: 100%;
+    background-image: url("pattern.png");
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+}
+.picc{
+    height: 230px;
+    width: 280px;
+    border-radius: 0%;
+    position: relative;
+    left: 6%;
+
+}
+#alumni{
+   padding: 7% 25px;
+}
+
+.twitter{
+    height: 45px;
+    width: 45px;
+    border-radius: 20%;
+    background: cover;
+}
+.google{
+    height: 45px;
+    width: 45px;
+    border-radius: 20%;
+    background: cover;
+}
+.facebook{
+    height: 45px;
+    width: 45px;
+    border-radius: 20%;
+    background: cover;
+}
+.linkedin{
+    height: 45px;
+    width: 45px;
+    background: cover;
+    border-radius: 20%;
+}
+li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+#ll{
+    display: block;
+    height: 30px;
+    width: 100%;
+    position: relative;
+    top: 15px;left: 20px;
+    style: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+#ll:hover{
+    background-image: url("pattern.png");
+    height: 25px;
+    width: 85%;
+}
+#last{
+
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 9px;left: 3px;
+    background-color: rgb(248, 227, 132);  
+    text-align: center;
+}
+.end{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(197, 197, 197);
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 40px;
+    display: flex;
+
+}
+.inend{
+    margin-right: 2px;
+    background-color: rgb(248, 227, 132);    
+    height: 100%;
+    width: 33.6%;
+}
+.inend2{
+    background-color: rgb(248, 227, 132);  
+    height: 100%;
+    width: 33.6%;
+}
+.anc{
+    color: rgb(24, 23, 23);
+    text-align: right;
+}
+.anc:hover{
+    color: rgb(255, 255, 255);
+}
+td{
+    text-align: left;
+    font-size: 11px;
+    height: 25px;
+    
+    padding-left: 30px;
+    
+}
+table{
+    position: relative;
+    top: 10px;
+}
+#copyright{
+    background-color: rgb(248, 227, 132); 
+    position: relative;
+    left: 3px;
+    height: 45px;
+    width: 100%;
+
+}
+#textco{
+    font-size: 11.5px;
+    position: relative;
+    text-align: center;
+}
+#colink{
+    color: rgb(24, 23, 23);
+}
+#colink:hover{
+    color: rgb(250, 250, 250);
+}
+#visit{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.ff{
+    color: white;
+}
+h4{
+    font-size: 16px;
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+}
+.hhh{
+    font-size: 20px;
+}
+.righttop{
+    height: 260px;
+    width: 245px;
+    background-color:rgb(0, 0, 0,0.7);
+    position: relative;
+    left: 74.7%;top: -105px;
+    line-height: 35px;
+}
+.pe{
+    color: white;
+    text-align: right;
+    font-size: 23px;
+    position: relative;
+
+    font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+    right: 20px;top: 5px;
+}
+.orange{
+    color: orange;
+}
+.CREATIVITY{
+    color: rgb(248, 43, 255);
+}
+.DESIGN{
+    color: blue;
+}
+#joinus{
+    color: rgb(248, 227, 132);
+
+}
+#joinus:hover{
+    color: orange;
+}
+#r{
+    color: orange;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    left: 17px;
+}
+#a{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(175, 82, 187);
+    font-weight: bold;
+    position: relative;
+    left: 3px;
+}
+.rrr{
+    color: aliceblue;
+    position: relative;
+    font-size: 20px;
+    top: -16px;left: 20px;
+}
+.art{
+    color: aliceblue;
+    position: relative;
+    bottom: 25px; left: 20px;
+    font size: 15px;
+}

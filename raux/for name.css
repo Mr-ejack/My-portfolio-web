@@ -1,0 +1,80 @@
+body{
+    background-image: url("back44.jpg");
+}
+.main{
+    display: flex;
+}
+.main{
+    border-radius: 10%;
+    height: 500px;
+    width: 80%;
+    position: relative;
+    top: 100px;left: 10%;
+    background-image: url("back44.jpg");
+    background-size: cover;
+    opacity: 60%;
+}
+.smain{
+    height: 100%;
+    width: 50%;
+   
+    background-image: url("back44.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+.smain2{
+    height: 100%;
+    width: 50%;
+    background-image: url("back45.jpg");
+    border-radius: 10%;
+}
+img{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    border-radius: 10%;
+    opacity: 80%;
+}
+h1{
+    text-align: center;
+    color: rgb(137, 255, 156);
+    font-size: 40px;
+}
+#name{
+    position: relative;
+    top: 150px;left: 10%;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.name{
+    height: 30px;
+    width: 300px;
+    border-radius: 10%;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 10%;
+    position: relative;
+    top: 250px;left: 60%;
+}
+button{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10%;
+    font-size: 23px;
+}
+#fathersname{
+    position: relative;
+    top: 150px;left: 10%;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.father{
+    height: 30px;
+    width: 300px;
+    border-radius: 10%;
+}

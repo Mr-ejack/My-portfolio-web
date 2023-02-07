@@ -1,0 +1,115 @@
+body{
+    background-image: url("back43.jpg");
+}
+#main{
+    display: flex;
+}
+#main{
+    border-radius: 10%;
+    height: 500px;
+    width: 80%;
+    position: relative;
+    top: 100px;left: 10%;
+    background-image: url("back43.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 60%;
+}
+.smain{
+    height: 100%;
+    width: 50%;
+    background-image: url("back41.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+.smain2{
+    height: 100%;
+    width: 50%;
+    background-image: url("back44.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+h1{
+    text-align: center;
+    color: rgb(137, 255, 156);
+    font-size: 40px;
+}
+img{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    border-radius: 10%;
+    opacity: 80%;
+}
+.age{
+    position: relative;
+    left: 30px;top: 50px;
+    color: rgb(137, 255, 156);
+    font-size: 30px;
+}
+#age{
+    height: 25px;
+    width: 150px;
+    border-radius: 20%;
+}
+.date{
+    position: relative;
+    left: 30px;top: 50px;
+    color: rgb(6, 224, 240);
+    font-size: 30px;
+}
+#date{
+    height: 25px;
+    width: 150px;
+    border-radius: 20%;
+}
+.gender{
+    position: relative;
+    left: 30px;top: 50px;
+    color: rgb(231, 196, 0);
+    font-size: 30px;
+}
+.file{
+    position: relative;
+    left: 30px;top: 50px;
+    color: rgb(70, 250, 94);
+    font-size: 30px;
+}
+#file{
+    height: 25px;
+    width: 150px;
+    border-radius: 20%;
+}
+.number{
+    position: relative;
+    left: 30px;top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#phone{
+    height: 25px;
+    width: 250px;
+    border-radius: 20%;
+}
+.btn1{
+    height: 30px;
+    width: 100px;
+    border-radius: 20%;
+    position: relative;
+    top: 80px;left: 10%;
+}
+button{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10%;
+}
+.btn2{
+    height: 30px;
+    width: 100px;
+    border-radius: 20%;
+    position: relative;
+    top: 50px;left: 70%;
+}

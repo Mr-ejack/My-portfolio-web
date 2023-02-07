@@ -1,0 +1,70 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("back35.jpg");
+}
+#main{
+    height: 700px;
+    width: 75%;
+    position: relative;
+    top: 100px;left: 150px;bottom: 100px;
+    border-radius: 10%;
+    background-image: url("back35.jpg");
+}
+.smain1{
+    height: 50%;
+    width: 100%;
+    border-radius: 10%;
+    background-color: aqua;
+    opacity: 70%;
+}
+.smain2{
+    height: 50%;
+    width: 100%;
+    background-image: url("3.jpg");
+    color: rgb(0, 0, 0);
+    border-radius: 10%;
+    opacity: 50%;
+}
+#h1{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+}
+#email{
+    position: relative;
+    top: 100px;left: 30%;
+    font-size: 30px;
+}
+#gmail{
+    height: 30px;
+    width: 300px;
+    border-radius: 10%;
+}
+#pass{
+    position: relative;
+    top: 100px;left: 30%;
+    font-size: 30px;
+}
+#password{
+    height: 30px;
+    width: 300px;
+    border-radius: 10%;
+}
+#btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 10%;
+    position: relative;
+    top: 150px;left: 70%;
+}
+button{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10%;
+}
