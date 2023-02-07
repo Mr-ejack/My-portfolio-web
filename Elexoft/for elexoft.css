@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.back{
+    background-image: url("2.jpg");
+    width: 100%;
+    height: 25.5em;
+    background-size: cover;
+    background-position: center;
+}
+.fa-html5{
+    color: rgb(255, 102, 0);
+    font-size: 50px;
+}
+.fa-css3{
+    color: rgb(132, 0, 255);
+    font-size: 50px;   
+}
+.fa-bootstrap{
+    color: blue;
+    font-size: 50px;
+}
+.bbbbb{
+    position: relative;
+    left: 40%;
+}
+.bbbb{
+    position: relative;
+    left: 5em;
+}
+.fontt{
+    font-size: 3em;
+    margin-left: 1em ;
+}
+li{
+    list-style: none;
+}
